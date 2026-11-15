@@ -53,18 +53,18 @@ body > .body {
     padding: 10px;
     border-radius: 10px;
     display: flex;
+    align-items: center;
 }
 .nav > a > img {
-    margin-right: 2px;
-    margin-left: auto;
     height: 30px;
     width: 30px;
     border: 1px solid #ffffff;
-    border-radius: 20px;
+    border-radius: 5px;
+    padding:0px 20px;
 }
-.navigator { margin: 0px 20px;}
-.navigator > a {
-    margin: 5px;
+.nav > a {
+    margin-right: 2px;
+    margin-left: auto;
 }
 .navigator img {
     height: 30px;
