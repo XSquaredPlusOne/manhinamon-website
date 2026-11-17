@@ -3,14 +3,22 @@ body {
     color: #ffffff;
 }
 
-body > .head {
+.sticky {
+    position: sticky;
+    top: 0px;
+    background-color: #000000;
+}
+
+
+.head {
     display: flex;
     flex-direction: row;
-    position: sticky;
     align-items:end;
-    margin:5px ;
-    border-bottom: 2px solid #fffff0;
+    margin:10px ;
     padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    position: sticky;
 }
 
 .head > img {
@@ -31,5 +39,128 @@ body > .head {
 .head > #tag {
     align-self: last baseline;
     font-family: monospace;
-    font-size: 14px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+
+.nav {
+    margin: 10px;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+}
+.nav > a > img {
+    height: 50px;
+    width: 50px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding:0px 20px;
+}
+.nav > a {
+    margin-right: 2px;
+    margin-left: auto;
+}
+.navigator img {
+    height: 50px;
+    width: 50px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.navigator a {
+    gap: 20px;
+}
+.navigator {
+    margin-left: 10px;
+    height: 80px;
+    align-content: center;
+    gap: 20px;
+}
+
+
+
+
+.content {
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 2px 10px;
+    margin: 20px 10px 10px 10px;
+}
+
+
+.mission, .vision, .creator {
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 50px 10px 50px;
+    background-color: #1c1b1b;
+}
+
+
+h1 {
+    width: auto;
+    border-bottom: 3px solid #ffffff ;
+    font-family: monospace;
+    font-size: 35px;
+    font-weight: bolder;
+    margin: 10px;
+    padding: 10px;
+}
+
+.mission > p, .vision p {
+    margin: 20px 10px 10px 10px;
+    font-size: 23px;
+    text-justify: auto;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    background-color: #000000;
+    padding:20px;
+}
+
+
+.details {
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #000000;
+}
+.details > img {
+    height: 280px;
+    width: 280px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    margin: 20px;
+}
+#details {
+    margin: 5px 10px;
+    padding: 20px;
+    border-left: 2px solid #ffffff;
+}
+
+#details > h2 {
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 35px;
+}
+#details > p {
+    font-size: 25px;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0px 0px 10px 0px;
+}
+#school {
+    font-size: 29px;
 }

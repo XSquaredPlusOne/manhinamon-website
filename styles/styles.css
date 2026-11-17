@@ -3,15 +3,20 @@ body {
     color: #ffffff;
 }
 
+.sticky {
+    position: sticky;
+    top: 0px;
+    background-color: #000000;
+}
 
 
-body > .head {
+.head {
     display: flex;
     flex-direction: row;
-    position: sticky;
     align-items:end;
-    margin:5px ;
-    border-bottom: 2px solid #fffff0;
+    margin:10px ;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
     padding: 20px;
     background-color: #000000;
 }
@@ -34,26 +39,27 @@ body > .head {
 .head > #tag {
     align-self: last baseline;
     font-family: monospace;
-    font-size: 14px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 
-
 .body {
-    margin-top: 10px;
+    margin: 20px 10px 10px 10px;
     padding: 50px;
     border: 1px solid #ffffff;
-    border-radius: 15px;
+    border-radius: 20px;
     padding: 2px 10px;
     height: 100svh;
     background-color: #1c1b1b;
 } 
 
 .nav {
-    margin-top: 10px;
+    margin: 10px;
     border: 1px solid #ffffff;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
     display: flex;
     align-items: center;
     background-color: #000000;
@@ -103,6 +109,7 @@ body > .head {
     border-radius: 20px;
     border: 1px solid #ffffff;
     padding: 20px;
+    margin: 5px 10px 0px 10px;
 }
 
 .info img {
