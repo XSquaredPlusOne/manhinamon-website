@@ -22,8 +22,8 @@ body {
 }
 
 .head > img {
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     border: 1px solid white;
     border-radius: 50%;
     margin: 2px 10px;
@@ -57,8 +57,8 @@ body {
     background-color: #000000;
 }
 .nav > a > img {
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    width: 35px;
     border: 1px solid #ffffff;
     border-radius: 5px;
     padding:0px 20px;
@@ -68,8 +68,8 @@ body {
     margin-left: auto;
 }
 .navigator img {
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    width: 35px;
     border: 1px solid #ffffff;
     border-radius: 50%;
     margin-left: 15px;
@@ -136,8 +136,8 @@ h1 {
     gap: 60px;
 }
 #platforms img {
-    height: 90px;
-    width: 90px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     border: 1px solid #ffffff;
     align-self: center;
@@ -169,8 +169,8 @@ h1 {
     gap: 30px;
 }
 #email img {
-    height: 90px;
-    width: 90px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     border: 1px solid #ffffff;
     align-self: center;
@@ -202,8 +202,8 @@ h1 {
     flex-direction: column;
 }
 #number img {
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     border: 1px solid #ffffff;
     align-self: center;
