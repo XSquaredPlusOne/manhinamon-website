@@ -97,7 +97,7 @@ body {
 }
 
 
-.mission, .vision, .creator {
+.mission, .vision, .creator, .support {
     border: 1px solid #ffffff;
     border-radius: 20px;
     padding: 8px;
@@ -110,16 +110,25 @@ h1 {
     width: auto;
     border-bottom: 3px solid #ffffff ;
     font-family: monospace;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: bolder;
     margin: 10px;
     padding: 10px;
 }
 
+h3 {
+    font-family: monospace;
+    font-size: 26px;
+    margin: 10px;
+    padding: 5px;
+}
+
+
 .mission > p, .vision p {
     margin: 20px 10px 10px 10px;
-    font-size: 23px;
-    text-justify: auto;
+    font-size: 25px;
+    text-align: justify;
+    line-height: 30px;
     border: 1px solid #ffffff;
     border-radius: 20px;
     background-color: #000000;
@@ -165,4 +174,44 @@ h1 {
 }
 #school {
     font-size: 29px;
+}
+
+
+.apply {
+    border: 1px solid #ffffff;
+    background-color: #000000;
+    flex: 1;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.support > h2 {
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 30px;
+    margin: 20px 30px ;
+}
+.li {
+    align-content: center;
+    padding: 20px;
+    justify-self: center;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.li a {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: monospace;
+    align-items: center;
+    gap: 20px;
+}
+.li img {
+    border: 1px solid #ffffff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
 }
