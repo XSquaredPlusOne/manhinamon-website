@@ -195,12 +195,11 @@ a {
 
 .cat {
     display: flex;
-    flex: 1;
     padding: 20px;
     border-bottom: 1px solid #3e4042;
     background: #18191a;
     text-decoration: none;
-    margin: 10px 0;
+    margin: 10px auto;
 }
 
 .cat:hover {
